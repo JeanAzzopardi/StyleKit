@@ -1,8 +1,9 @@
 machine:
   xcode:
     version: "8.2"
+
 deployment:
-  beta_distribution: # just a label, can be anything
+  beta_distribution:
     branch: develop
       commands:
-        # this will build the ipa file
+        - echo "hello world"
