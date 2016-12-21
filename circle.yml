@@ -5,5 +5,5 @@ machine:
 deployment:
   beta_distribution:
     branch: develop
-      commands:
-        - echo "hello world"
+    commands:
+      - echo "hello world"
